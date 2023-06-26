@@ -11,4 +11,4 @@ export default function taskBlock(trueOrFalse) {
       const task2 = false; //eslint-disable-line
     }
     return [task, task2];
-  }
+}
