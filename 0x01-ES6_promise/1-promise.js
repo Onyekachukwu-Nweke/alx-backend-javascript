@@ -11,7 +11,7 @@
  * false
  * reject the promise with an error object with the message The fake API is not working currently
  */
-export default getFullResponseFromAPI(success) {
+export default function getFullResponseFromAPI(success) {
   const p = new Promise((resolve, reject) => {
     if (success) {
       resolve({ status: 200, body: 'Success' });
