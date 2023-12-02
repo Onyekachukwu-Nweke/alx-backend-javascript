@@ -1,5 +1,8 @@
-export default function calculateNumber(a, b) {
-  const intA = Math.round(a);
-  const intB = Math.round(b);
-  return (intA + intB);
+function calculateNumber(a, b) {
+    const an = Math.round(a);
+    const bn = Math.round(b);
+    const c = an + bn;
+    return c;
 }
+
+module.exports = calculateNumber;
